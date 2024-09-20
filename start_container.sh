@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull docker pull amludevops/cicd-demo
 
 # Run the Docker image as a container
-echo
+docker run -dp 5000:5000 amludevops/cicd-demo
